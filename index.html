@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>TurningIdeas Ventures - Co-building startups and Helping Enterprises Innovate</title>
+	<meta name="description"
+		content="We help startups with complementing skills in building their ventures from Ideation to scale and consult enterprises for growth and innovation" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/1a2047f0eb.js" crossorigin="anonymous"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lato&family=Roboto&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script>
+		// Preloading images on landing_page
+		const images = [
+			'static/home/landing1.jpg',
+			'static/home/landing2.jpg',
+			'static/home/landing3.jpg'
+		];
+
+		images.forEach(image => {
+			const img = new Image();
+			img.src = image;
+		});
+	</script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm py-0">
+		<a class="navbar-brand px-0" href="/">
+			<img src="/static/ti_logo.png" class="img-fluid logo ml-md-3">
+		</a>
+		<ul class="nav ml-auto">
+			<li class="nav-item ">
+				<button class="btn py-0 px-3 sidebar_menu_btn ml-auto" aria-label="sidebar_menu"><i class="fa fa-bars"
+						aria-hidden="true"></i></button>
+			</li>
+		</ul>
+	</nav>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn btn py-0 px-3"><i class="fa fa-times" aria-hidden="true"></i></a>
+		<a href="/" class="py-3 px-4 active" id="home">Home</a>
+		<a href="/startups" class="p-3 px-4" id="startups">Startups</a>
+		<a href="/enterprise" class="p-3 px-4" id="enterprise">Enterprise</a>
+		<a href="/career" class="p-3 px-4" id="career">Career</a>
+		<a href="/blogs" class="p-3 px-4" id="blogs">Blogs</a>
+		<a href="/FAQ" class="p-3 px-4" id="FAQ">FAQ</a>
+		<a href="/about" class="p-3 px-4" id="about">About</a>
+		<a href="/contact_us" class="p-3 px-4" id="contact_us">Contact Us</a>
+	</div>
+	<div class="social_icons d-flex flex-column align-items-center px-md-3 px-2">
+		<a href="https://www.facebook.com/turnideas" target="_blank" class="social_icon my-md-2 my-1"><i
+				class="fa fa-facebook" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/turningidea" target="_blank" class="social_icon my-md-2 my-1"><i
+				class="fa fa-twitter" aria-hidden="true"></i></a>
+		<a href="https://www.linkedin.com/company/turningideas-solutions/" target="_blank"
+			class="social_icon my-md-2 my-1"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+		<a href="https://www.instagram.com/turningideas/" target="_blank" class="social_icon my-md-2 my-1"><i
+				class="fa fa-instagram" aria-hidden="true"></i></a>
+	</div>
+
+	<div id="landing_page" class="py-5" style="margin-top: 4rem">
+		<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"
+			data-bs-interval="3000" style="max-height: 40rem">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="static/home/landing1.jpg" class="d-block w-100" style="height: 40rem">
+					<div class="carousel-caption">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-7">
+									<p class="display-1 d-none d-xl-block d-lg-block py-5 px-2 heading"
+										style="font-size: 4.3rem">We are technology co-founders to build your startup
+										from scratch</p>
+									<p class="display-3 d-none d-md-block d-lg-none pt-3 px-2 heading">We are technology
+										co-founders to build your startup from scratch</p>
+									<p class="display-4 d-block d-md-none py-5 heading">We are technology co-founders to
+										build your startup from scratch</p>
+									<a href="#startup_lab_block" class="hvr-sweep-to-right mx-2 mb-5"
+										style="z-index:999;">KNOW MORE</a>
+									<a href="https://www.f6s.com/2022-india-accelerator-program/apply" target="_blank"
+										class="hvr-sweep-to-right mx-2 mb-5" style="z-index:999;">Apply for India
+										Accelerator</a><br><br>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="static/home/landing2.jpg" class="d-block w-100" style="height: 40rem">
+					<div class="carousel-caption">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-7">
+									<p class="display-1 d-none d-xl-block d-lg-block py-5 px-2 heading"
+										style="font-size: 4.3rem">We are technology co-founders to build your startup
+										from scratch</p>
+									<p class="display-3 d-none d-md-block d-lg-none pt-3 px-2 heading">We are technology
+										co-founders to build your startup from scratch</p>
+									<p class="display-4 d-block d-md-none py-5 heading">We are technology co-founders to
+										build your startup from scratch</p>
+									<a href="#startup_lab_block" class="hvr-sweep-to-right mx-2 mb-5"
+										style="z-index:999;">KNOW MORE</a>
+									<a href="https://www.f6s.com/2022-india-accelerator-program/apply" target="_blank"
+										class="hvr-sweep-to-right mx-2 mb-5" style="z-index:999;">Apply for India
+										Accelerator</a><br><br>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="static/home/landing3.jpg" class="d-block w-100" style="height: 40rem">
+					<div class="carousel-caption">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-7">
+									<p class="display-1 d-none d-xl-block d-lg-block py-5 px-2 heading"
+										style="font-size: 4.3rem">We are technology co-founders to build your startup
+										from scratch</p>
+									<p class="display-3 d-none d-md-block d-lg-none pt-3 px-2 heading">We are technology
+										co-founders to build your startup from scratch</p>
+									<p class="display-4 d-block d-md-none py-5 heading">We are technology co-founders to
+										build your startup from scratch</p>
+									<a href="#startup_lab_block" class="hvr-sweep-to-right mx-2 mb-5"
+										style="z-index:999;">KNOW MORE</a>
+									<a href="https://www.f6s.com/2022-india-accelerator-program/apply" target="_blank"
+										class="hvr-sweep-to-right mx-2 mb-5" style="z-index:999;">Apply for India
+										Accelerator</a><br><br>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="startup_lab_block">
+		<div class="container py-md-5 py-2">
+			<div class="row">
+				<div class="col-md-10 pt-4" style="z-index: 10;">
+					<a href="#startup_lab_block" class="heading_btn">STARTUP LAB</a>
+					<p class="display-1 d-none d-xl-block d-lg-block py-5 mt-5 px-2 heading_2"><b>WANT TO BUILD YOUR
+							STARTUP WITH US</b></p>
+					<p class="display-3 d-none d-md-block d-lg-none py-5 mt-5 px-2 heading"><b>WANT TO BUILD YOUR
+							STARTUP WITH US</b></p>
+					<p class="display-4 d-block d-md-none py-5 mt-5 heading_2"><b>WANT TO BUILD YOUR STARTUP WITH US</b>
+					</p>
+					<a href="/startups" class="hvr-sweep-to-right mx-2 my-5">WANT TO BUILD WITH US</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="enterprise_block">
+		<div class="container py-md-5 py-2">
+			<div class="row">
+				<div class="col-md-11 pt-4">
+					<a href="#enterprise_block" class="heading_btn_2">ENTERPRISE</a>
+					<p class="display-1 d-none d-xl-block d-lg-block py-5 mt-3 px-2 heading"><b>WANT TO ACCELERATE YOUR
+							ENTERPRISE GROWTH</b></p>
+					<p class="display-3 d-none d-md-block d-lg-none py-5 mt-3 px-2 heading"><b>WANT TO ACCELERATE YOUR
+							ENTERPRISE GROWTH</b></p>
+					<p class="display-4 d-block d-md-none py-5 mt-3 heading"><b>WANT TO ACCELERATE YOUR ENTERPRISE
+							GROWTH</b></p>
+					<a href="/enterprise" class="hvr-sweep-to-right mx-2 my-5">INNOVATE WITH US</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="portfolio">
+		<div class="container py-md-5 py-2">
+			<div class="row">
+				<div class="col-md-8 pt-4">
+					<a href="#portfolio" class="heading_btn_3">PORTFOLIO</a>
+					<p class="display-1 d-none d-xl-block d-lg-block py-5 my-5 px-2 heading"><b>VENTURES WE'VE BUILT</b>
+					</p>
+					<p class="display-3 d-none d-md-block d-lg-none pt-5 my-5 px-2 heading"><b>VENTURES WE'VE BUILT</b>
+					</p>
+					<p class="display-4 d-block d-md-none py-5 my-5 heading"><b>VENTURES WE'VE BUILT</b></p>
+				</div>
+			</div>
+			<div class="row pb-5 mb-5">
+				<div class="col-md-12">
+					<div id="ventures" class="carousel slide" data-ride="carousel" data-interval="1500">
+						<div class="carousel-inner text-center h-100">
+							<div class="carousel-item h-100 active">
+								<a href="https://www.vccircle.com/exclusive-student-housing-startup-your-space-raises-angel-funding/"
+									target="_blank" class="venture_info">
+									<div class="row m-0">
+										<div class="col-md-6 row m-0">
+											<div class="col-md-6 d-none d-md-block">
+												<img src="static/venture_info/your_space1.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6 mt-md-5 pt-md-5 pb-5">
+												<img src="static/venture_info/your_space2.jpg" class="img-fluid">
+											</div>
+										</div>
+										<div class="col-md-6 text-center">
+											<img src="static/ventures/yourspace.png" alt="swagbag" class="w-75">
+											<p class="venture_info_content">
+												<i>India's premier student housing brand. Award winning student
+													experience.</i>
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="carousel-item h-100 ">
+								<a href="http://www.swagbag.in/" target="_blank" class="venture_info">
+									<div class="row m-0">
+										<div class="col-md-6 row m-0">
+											<div class="col-md-6 d-none d-md-block">
+												<img src="static/venture_info/swagbag1.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6 mt-md-5 pt-md-5 pb-5">
+												<img src="static/venture_info/swagbag2.jpg" class="img-fluid">
+											</div>
+										</div>
+										<div class="col-md-6 text-center">
+											<img src="static/ventures/SwagBag.png" alt="swagbag" class="w-75">
+											<p class="venture_info_content">
+												<i>We discover what gets liked in your retail store</i>
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="carousel-item h-100">
+								<a href="https://www.easemygst.com/" target="_blank" class="venture_info">
+									<div class="row m-0">
+										<div class="col-md-6 row m-0 pb-5">
+											<div class="col-md-12">
+												<img src="static/venture_info/easymygst.jpg" class="img-fluid">
+											</div>
+										</div>
+										<div class="col-md-6 text-center">
+											<img src="static/ventures/EaseMyGST.png" class="w-75">
+											<p class="venture_info_content">
+												<i>We make GST Filing easy for you using technology</i>
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="carousel-item h-100">
+								<a href="https://www.theweek.in/wire-updates/business/2019/05/02/pwr2--turningideas%20ventures%20llp.html"
+									target="_blank" class="venture_info">
+									<div class="row m-0">
+										<div class="col-md-6 row m-0">
+											<div class="col-md-6">
+												<img src="static/venture_info/realtell1.jpeg" class="border img-fluid ">
+											</div>
+											<div class="col-md-6 mt-md-5 pt-md-5 pb-5 d-none d-md-block">
+												<img src="static/venture_info/realtell2.jpeg"
+													class="border img-fluid h-100 ">
+											</div>
+										</div>
+										<div class="col-md-6 text-center">
+											<img src="static/ventures/RealTell.png" alt="swagbag" class="w-75">
+											<p class="venture_info_content">
+												<i>Gamifying offline retail to drive store footfall</i>
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<a class="carousel-control-prev d-none d-md-block" href="#ventures" data-slide="prev"
+							aria-label="Prev">
+							<span class="carousel-control-prev-icon">
+								< Previous </span>
+						</a>
+						<a class="carousel-control-next d-none d-md-block" href="#ventures" data-slide="next"
+							aria-label="Next">
+							<span class="carousel-control-next-icon">
+								Next >
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="gform">
+		<iframe
+			src="https://docs.google.com/forms/d/e/1FAIpQLSc6rjbapyAv_dLdvIIDW_LYX5Jeaj427hX9ZSYZEeXrX7SF6A/viewform?embedded=true"
+			width="640" height="584" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	</div>
+	<div id="global_partners">
+		<div class="container py-md-3 py-2">
+			<div class="row">
+				<div class="col-md-5">
+					<p class="display-1 d-none d-xl-block d-lg-block py-5 mb-5 px-2 heading"><b>GLOBAL PARTNERS</b></p>
+					<p class="display-3 d-none d-md-block d-lg-none pt-3 px-2 heading"><b>GLOBAL PARTNERS</b></p>
+					<p class="display-4 d-block d-md-none py-5 heading"><b>GLOBAL PARTNERS</b></p>
+				</div>
+			</div>
+			<div class="row my-5">
+				<div class="col-md-12 py-5">
+					<div id="partners" class="carousel slide" data-ride="carousel" data-interval="1500">
+						<ul class="carousel-indicators my-5">
+							<li data-target="#partners" data-slide-to="0" class="active"></li>
+							<li data-target="#partners" data-slide-to="1"></li>
+							<li data-target="#partners" data-slide-to="2"></li>
+							<li data-target="#partners" data-slide-to="3"></li>
+							<li data-target="#partners" data-slide-to="4"></li>
+							<li data-target="#partners" data-slide-to="5"></li>
+							<li data-target="#partners" data-slide-to="6"></li>
+						</ul>
+						<div class="carousel-inner text-center">
+							<div class="carousel-item active">
+								<a href="https://aws.amazon.com/" target="_blank"><img src="static/partners/aws.png"
+										class="partners_logo" alt="partners-aws"></a>
+							</div>
+							<div class="carousel-item ">
+								<a href="https://www.elephantcastle.com/" target="_blank"><img
+										src="static/partners/elephant.png" class="partners_logo"
+										alt="partners-elephant"></a>
+							</div>
+							<div class="carousel-item ">
+								<a href="https://www.google.com/" target="_blank"><img src="static/partners/google.png"
+										class="partners_logo" alt="partners-google"></a>
+							</div>
+							<div class="carousel-item ">
+								<a href="https://www.ideafoundry.org/" target="_blank"><img
+										src="static/partners/ideafoundry.png" class="partners_logo"
+										alt="partners-ideafoundry"></a>
+							</div>
+							<div class="carousel-item">
+								<a href="https://makingprosperity.com/" target="_blank"><img
+										src="static/partners/mbr.png" class="partners_logo" alt="partners-mbr"></a>
+							</div>
+							<div class="carousel-item ">
+								<a href="https://mqdc.com/" target="_blank"><img src="static/partners/mqdc.png"
+										class="partners_logo" alt="partners-mqdc"></a>
+							</div>
+							<div class="carousel-item ">
+								<a href="https://tbdc.com/" target="_blank"><img src="static/partners/tbdc.png"
+										class="partners_logo" alt="partners-tbdc"></a>
+							</div>
+						</div>
+						<a class="carousel-control-prev d-none d-md-block" href="#partners" data-slide="prev"
+							aria-label="Prev">
+							<span class="carousel-control-prev-icon">
+								<i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="carousel-control-next d-none d-md-block" href="#partners" data-slide="next"
+							aria-label="Next">
+							<span class="carousel-control-next-icon">
+								<i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="in_media">
+		<div class="container py-md-5 py-2">
+			<div class="row">
+				<div class="col-md-8 pt-4">
+					<a href="#in_media" class="heading_btn">IN MEDIA</a>
+					<p class="display-1 d-none d-xl-block d-lg-block py-5 mt-5 px-2 heading"><b>WE CREATE SOME BUZZ AS
+							WELL</b></p>
+					<p class="display-3 d-none d-md-block d-lg-none py-5 mt-5 px-2 heading"><b>WE CREATE SOME BUZZ AS
+							WELL</b></p>
+					<p class="display-4 d-block d-md-none py-5 mt-5 heading"><b>WE CREATE SOME BUZZ AS WELL</b></p>
+				</div>
+			</div>
+			<div class="row pb-5 mb-5">
+				<div class="col-md-12">
+					<div id="media" class="carousel slide" data-ride="carousel" data-interval="1500">
+						<ul class="carousel-indicators my-5">
+							<li data-target="#media" data-slide-to="0" class="active"></li>
+							<li data-target="#media" data-slide-to="1"></li>
+							<li data-target="#media" data-slide-to="2"></li>
+							<li data-target="#media" data-slide-to="3"></li>
+							<li data-target="#media" data-slide-to="4"></li>
+							<li data-target="#media" data-slide-to="5"></li>
+							<li data-target="#media" data-slide-to="6"></li>
+						</ul>
+						<div class="carousel-inner text-center">
+							<div class="carousel-item active">
+								<a href="https://www.business-standard.com/article/pti-stories/turningideas-launches-enterprise-innovation-program-to-accelerate-startup-growth-119050700191_1.html"
+									target="_blank"><img src="static/media_logos/business_standard.png"
+										class="media_logo" alt="business_standard"></a>
+							</div>
+							<div class="carousel-item ">
+								<a href="https://economictimes.indiatimes.com/small-biz/startups/newsbuzz/turningideas-launches-goglobal-program-to-accelerate-startup-growth/articleshow/69200477.cms"
+									target="_blank"><img src="static/media_logos/ET.png" class="media_logo"
+										alt="ET"></a>
+							</div>
+							<div class="carousel-item ">
+								<a href="https://www.outlookindia.com/newsscroll/mqdcs-whizdom-rolls-out-two-innovative-programs-to-promote-entrepreneurship-amongst-young-professionals-nurture-innovative-talent/1567902"
+									target="_blank"><img src="static/media_logos/outlook.png" class="media_logo"
+										alt="outlook"></a>
+							</div>
+							<div class="carousel-item ">
+								<a href="https://www.vccircle.com/exclusive-student-housing-startup-your-space-raises-angel-funding/"
+									target="_blank"><img src="static/media_logos/tech circle.png" class="media_logo"
+										alt="tech circle"></a>
+							</div>
+							<div class="carousel-item">
+								<a href="https://timesofindia.indiatimes.com/home/education/news/bennett-universitys-students-rocked-the-round-the-clock-bootcamp-by-mqdc-whizdom/articleshow/74175370.cms"
+									target="_blank"><img src="static/media_logos/TOI.png" class="media_logo"
+										alt="TOI"></a>
+							</div>
+							<div class="carousel-item ">
+								<a href="https://www.vccircle.com/exclusive-incubation-platform-turningideas-launches-angel/"
+									target="_blank"><img src="static/media_logos/vcc.png" class="media_logo"
+										alt="vcc"></a>
+							</div>
+							<div class="carousel-item ">
+								<a href="https://yourstory.com/2016/06/ashish-mittal-turningideas-incubator"
+									target="_blank"><img src="static/media_logos/yourstory.png" class="media_logo"
+										alt="yourstory"></a>
+							</div>
+						</div>
+						<a class="carousel-control-prev d-none d-md-block" href="#media" data-slide="prev"
+							aria-label="Prev">
+							<span class="carousel-control-prev-icon">
+								<i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="carousel-control-next d-none d-md-block" href="#media" data-slide="next"
+							aria-label="Next">
+							<span class="carousel-control-next-icon">
+								<i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="container py-md-5 py-2">
+			<div class="row px-4 pb-5 w-100">
+				<div class="col-md-4 py-4">
+					<a class="py-4 footer_link" href="/about">ABOUT</a><br><br>
+					<a class="py-4 footer_link" href="/contact_us">CONTACT</a><br><br>
+					<a class="py-4 footer_link" href="/FAQ">FAQ</a><br><br><br>
+				</div>
+				<div class="col-md-4">
+					<h5 class="my-4">UK</h5>
+					<a href="/cdn-cgi/l/email-protection#37425c77434245595e59505e535256441954585a"
+						class="contact_links"><span class="__cf_email__"
+							data-cfemail="8affe1cafefff8e4e3e4ede3eeefebf9a4e9e5e7">[email&#160;protected]</span></a>
+					<h5 class="my-4">INDIA</h5>
+					<a href="/cdn-cgi/l/email-protection#a2cbccc4cde2d6d7d0cccbccc5cbc6c7c3d18cc1cdcf"
+						class="contact_links"><span class="__cf_email__"
+							data-cfemail="dbb2b5bdb49bafaea9b5b2b5bcb2bfbebaa8f5b8b4b6">[email&#160;protected]</span></a><br>
+					<a href="tel:+91 9899536692" class="contact_links">+91 9899536692</a>
+				</div>
+				<div class="col-md-4">
+					<h6 class="mt-4">
+						Want a growth consultation session to scale your startup or business.
+					</h6>
+					<div class="text-center">
+						<a id="book_now" href="/contact_us?prev=book_now">BOOK NOW !</a>
+						<br><br><br>
+						<p class="copyright_text">© Turning Ideas Ventures. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
